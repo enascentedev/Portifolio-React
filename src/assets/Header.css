@@ -1,37 +1,43 @@
-.header-container{
-	position: fixed;
+.header-container {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 40px;
-  padding: 10px 15px;
+  height: 60px; 
+  padding: 10px 20px;
   z-index: 99999;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
   background: rgba(105, 105, 105, 1);
+  box-sizing: border-box;
 }
+
 .header-container .titulo {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 1.2rem;
-  position: relative;
+  padding: 10px 0;
 }
+
 .header-container .redes-sociais {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-	list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.header-container .redes-sociais.redes-sociais .social-item .fab,
-.header-container .redes-sociais.redes-sociais .social-item .fas {
+
+.redes-sociais .social-item {
+  margin-left: 20px;
+}
+
+.redes-sociais .social-item a {
+  color: #000;
   font-size: 1.2rem;
-  margin: 0 10px;
   transition: transform 350ms ease;
 }
 
-.redes-sociais .social-item .fab:hover,
-.redes-sociais .social-item .fas:hover {
+.redes-sociais .social-item a:hover {
   transform: translateY(5px);
+  color: #0073e6;
 }

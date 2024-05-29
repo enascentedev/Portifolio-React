@@ -2,29 +2,29 @@ import '../assets/About.css';
 
 function About() {
 	return (
-		<div class='teste'>
-			<nav class="menu-top">
-				<section class="home">
-					<div class="foto">
-						<img src="/image/eu.jpg" alt='perfil' class='teste' />
+		<div className='teste'>
+			<nav className="menu-top">
+				<section className="home">
+					<div className="foto">
+						<img src="/image/eu.jpg" alt='perfil' className='teste' />
 					</div>
 				</section>
 			</nav>
 
-			<section class="sobre-mim">
-				<div class="container">
-					<h2 class="titulo">
+			<section className="sobre-mim">
+				<div className="container">
+					<h2 className="titulo">
 						Full Stack Developer
 					</h2>
-					<h2 class="titulo">Sobre Mim</h2>
-					<p class="descricao">
+					<h2 className="titulo">Sobre Mim</h2>
+					<p className="descricao">
 						Oi, meu nome é Emanuel, tenho 31 anos formado em
 						Análise e Desenvolvimento de Sistemas na Uniasselvi.
 						Tenho uma paixão enorme por desenvolvimento web e aprender
 						todos os dias.
 					</p>
-					<h2 class="titulo">Carreira Profissional</h2>
-					<p class="descricao">
+					<h2 className="titulo">Carreira Profissional</h2>
+					<p className="descricao">
 						Na minha área antiga, comecei porque sempre gostei de solucionar problemas.
 						Comecei cursando o curso técnico de mecânica, depois comecei a cursar engenharia
 						e acabei trancando o curso por que vi que o Engenheiro de hoje em dia, não soluciona
@@ -36,10 +36,10 @@ function About() {
 					</p>
 				</div>
 			</section>
-			<section class="habilidades">
-        <div class="container">
-          <h2 class="titulo">Habilidades e Conhecimentos</h2>
-          <p class="descricao">
+			<section className="habilidades">
+        <div className="container">
+          <h2 className="titulo">Habilidades e Conhecimentos</h2>
+          <p className="descricao">
             Para se manter e desenvolver habilidades na área de TI é preciso
             resiliência, se eu estou aqui até hoje é porque eu precisei aprender
             a não desistir e sempre seguir em frente. O que me encantou na área
@@ -55,90 +55,90 @@ function About() {
         </div>
       </section>
 
-			<section class="conhecimentos">
-        <div class="container">
-          <h2 class="titulo">Conhecimentos Técnicos</h2>
-          <ul class="conhecimentos-list">
-            <li class="conhecimento-item">
+			<section className="conhecimentos">
+        <div className="container">
+          <h2 className="titulo">Conhecimentos Técnicos</h2>
+          <ul className="conhecimentos-list">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-git-square"></i>
+                <i className="fab fa-git-square"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-html5"></i>
+                <i className="fab fa-html5"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-css3-alt"></i>
+                <i className="fab fa-css3-alt"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-js-square"></i>
+                <i className="fab fa-js-square"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-node-js"></i>
+                <i className="fab fa-node-js"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-react"></i>
+                <i className="fab fa-react"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fas fa-database"></i>
+                <i className="fas fa-database"></i>
                 Básico
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
                 Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-java"></i>
+                <i className="fab fa-java"></i>
 								Intermediário
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-php"></i>
+                <i className="fab fa-php"></i>
                 Básico
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-angular"></i>
+                <i className="fab fa-angular"></i>
                 Básico
               </span>
             </li>
 
-            <li class="conhecimento-item">
+            <li className="conhecimento-item">
               <span>
-                <i class="fab fa-linux"></i>
+                <i className="fab fa-linux"></i>
                 Básico
               </span>
             </li>
