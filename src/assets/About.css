@@ -1,0 +1,76 @@
+.teste {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+
+.home {
+  margin-top: 40px;
+  height: 35vh;
+  position: relative;
+  z-index: 1;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.foto {
+	width: 200px;
+  height: 200px;
+  
+}
+.foto .teste{
+	width: 200px;
+  height: 200px;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.titulo {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+.descricao {
+	font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.subtitulo {
+	font-size: 1.6rem;
+}
+.conhecimentos-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+}
+.conhecimento-item {
+	background-color: #3a3a3a;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 10px;
+	width: calc(33% - 20px);
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.conhecimento-item i {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+.conhecimento-item span {
+	display: block;
+	font-size: 1.2em;
+}
