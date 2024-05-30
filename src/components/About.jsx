@@ -16,14 +16,14 @@ function About() {
 					<h2 className="titulo">
 						Full Stack Developer
 					</h2>
-					<h2 className="titulo">Sobre Mim</h2>
+					<h2 className="subtitulo">Sobre Mim</h2>
 					<p className="descricao">
 						Oi, meu nome é Emanuel, tenho 31 anos formado em
 						Análise e Desenvolvimento de Sistemas na Uniasselvi.
 						Tenho uma paixão enorme por desenvolvimento web e aprender
 						todos os dias.
 					</p>
-					<h2 className="titulo">Carreira Profissional</h2>
+					<h2 className="subtitulo">Carreira Profissional</h2>
 					<p className="descricao">
 						Na minha área antiga, comecei porque sempre gostei de solucionar problemas.
 						Comecei cursando o curso técnico de mecânica, depois comecei a cursar engenharia
