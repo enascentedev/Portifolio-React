@@ -51,7 +51,7 @@ function Header() {
         </li>
         <li className="social-item">
           <a
-            href="./docs/Emanuel Curriculo.pdf"
+            href="./docs/Emanuel-Desenvolvedor-Software.pdf"
             target="_blank"
             alt="download CV"
             download
