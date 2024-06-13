@@ -1,0 +1,33 @@
+.container {
+	width: 100%;;
+  margin: 0 auto;
+  padding: 20px;
+	font-family: 'Roboto', sans-serif;
+		h1 {
+			font-size: 1.5em;
+		}
+		h2 {
+			font-size: 1.5em;
+		}
+		h3 {
+			font-size: 1.0em;
+		}
+	}
+	
+
+.exp-list{
+	background-color: #3a3a3a;
+}
+
+.exp-list li{
+	display: flex;
+  flex-direction: column;
+	gap: 10px;
+}
+
+.descricao {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+

@@ -37,114 +37,114 @@ function About() {
 				</div>
 			</section>
 			<section className="habilidades">
-        <div className="container">
-          <h2 className="titulo">Habilidades e Conhecimentos</h2>
-          <p className="descricao">
-            Para se manter e desenvolver habilidades na área de TI é preciso
-            resiliência, se eu estou aqui até hoje é porque eu precisei aprender
-            a não desistir e sempre seguir em frente. O que me encantou na área
-            de desenvolvimento é a possibilidade de poder explorar minha
-            criatividade, pensar fora da caixinha e desenvolver novas
-            habilidades criativas pensando sempre em uma nova forma de fazer
-            algo antigo.
-            Preciso estar aprendendo e melhorando alguma habilidade pra mim isso
-            vai além de ser um bom profissional, eu acredito que cada dia a
-            gente tem a oportunidade de se tornar a nossa melhor versão e isso
-            reflete em todas as áreas da nossa vida.
-          </p>
-        </div>
-      </section>
+				<div className="container">
+					<h2 className="titulo">Habilidades e Conhecimentos</h2>
+					<p className="descricao">
+						Para se manter e desenvolver habilidades na área de TI é preciso
+						resiliência, se eu estou aqui até hoje é porque eu precisei aprender
+						a não desistir e sempre seguir em frente. O que me encantou na área
+						de desenvolvimento é a possibilidade de poder explorar minha
+						criatividade, pensar fora da caixinha e desenvolver novas
+						habilidades criativas pensando sempre em uma nova forma de fazer
+						algo antigo.
+						Preciso estar aprendendo e melhorando alguma habilidade pra mim isso
+						vai além de ser um bom profissional, eu acredito que cada dia a
+						gente tem a oportunidade de se tornar a nossa melhor versão e isso
+						reflete em todas as áreas da nossa vida.
+					</p>
+				</div>
+			</section>
 
 			<section className="conhecimentos">
-        <div className="container">
-          <h2 className="titulo">Conhecimentos Técnicos</h2>
-          <ul className="conhecimentos-list">
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-git-square"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-html5"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-css3-alt"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-js-square"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-node-js"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-react"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fas fa-database"></i>
-                Básico
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-github"></i>
-                Intermediário
-              </span>
-            </li>
-
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-java"></i>
+				<div className="container">
+					<h2 className="titulo">Conhecimentos Técnicos</h2>
+					<ul className="conhecimentos-list">
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-git-square"></i>
 								Intermediário
-              </span>
-            </li>
+							</span>
+						</li>
 
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-php"></i>
-                Básico
-              </span>
-            </li>
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-html5"></i>
+								Intermediário
+							</span>
+						</li>
 
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-angular"></i>
-                Básico
-              </span>
-            </li>
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-css3-alt"></i>
+								Intermediário
+							</span>
+						</li>
 
-            <li className="conhecimento-item">
-              <span>
-                <i className="fab fa-linux"></i>
-                Básico
-              </span>
-            </li>
-          </ul>
-        </div>
-      </section>
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-js-square"></i>
+								Intermediário
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-node-js"></i>
+								Intermediário
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-react"></i>
+								Intermediário
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fas fa-database"></i>
+								Básico
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-github"></i>
+								Intermediário
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-java"></i>
+								Intermediário
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-php"></i>
+								Básico
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-angular"></i>
+								Básico
+							</span>
+						</li>
+
+						<li className="conhecimento-item">
+							<span>
+								<i className="fab fa-linux"></i>
+								Básico
+							</span>
+						</li>
+					</ul>
+				</div>
+			</section>
 		</div>
 	);
 }
