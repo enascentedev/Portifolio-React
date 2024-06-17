@@ -76,13 +76,19 @@
 	font-size: 2em;
 	margin-bottom: 10px;
 }
-.conhecimento-item span {
+.conhecimento-item a {
 	display: flex;
 	gap: 20px;
 	align-items: center;
 	justify-content: center;
 	font-size: 1.2em;
 	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color:#fff
+}
+.conhecimento-item a:hover {
+  color:black; /* Mudar cor no hover, se necessário */
+  text-decoration: solid; /* Certificar-se de que não há sublinhado no hover */
 }
 .conhecimento-item span a {
 	background-color: black;

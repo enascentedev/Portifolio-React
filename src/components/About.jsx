@@ -1,4 +1,7 @@
 import '../assets/About.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 
 function About() {
 	return (
@@ -60,87 +63,89 @@ function About() {
 					<h2 className="titulo">Conhecimentos Técnicos</h2>
 					<ul className="conhecimentos-list">
 						<li className="conhecimento-item">
-							<span>
-								<i className="fab fa-git-square"></i>
-								Intermediário
-							</span>
+							<a>
+								<NavLink to="/git">
+									<i className="fab fa-git-square"></i>
+									Intermediário
+								</NavLink>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-html5"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-css3-alt"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-js-square"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-node-js"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-react"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fas fa-database"></i>
 								Básico
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-github"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-java"></i>
 								Intermediário
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-php"></i>
 								Básico
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-angular"></i>
 								Básico
-							</span>
+							</a>
 						</li>
 
 						<li className="conhecimento-item">
-							<span>
+							<a>
 								<i className="fab fa-linux"></i>
 								Básico
-							</span>
+							</a>
 						</li>
 					</ul>
 				</div>
