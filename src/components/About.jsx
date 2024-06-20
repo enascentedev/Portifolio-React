@@ -8,8 +8,8 @@ function About() {
 		<div className='teste'>
 			<nav className="menu-top">
 				<section className="home">
-					<div className="foto">
-						<img src="/image/eu.jpg" alt='perfil' className='teste' />
+					<div className="box-foto">
+						<img src="/image/eu.jpg" alt='perfil' className='foto' />
 					</div>
 				</section>
 			</nav>
@@ -66,85 +66,87 @@ function About() {
 							<a>
 								<NavLink to="/git">
 									<i className="fab fa-git-square"></i>
-									Intermediário
+									Git
 								</NavLink>
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
-								<i className="fab fa-html5"></i>
-								Intermediário
+								<NavLink to="/git">
+									<i className="fab fa-html5"></i>
+									HTML
+								</NavLink>
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-css3-alt"></i>
-								Intermediário
+								CSS
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-js-square"></i>
-								Intermediário
+								JAVASCRIPT
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-node-js"></i>
-								Intermediário
+								NODE
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-react"></i>
-								Intermediário
+								REACT
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fas fa-database"></i>
-								Básico
+								SQL
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-github"></i>
-								Intermediário
+								GITHUB
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-java"></i>
-								Intermediário
+								JAVA
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-php"></i>
-								Básico
+								PHP
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-angular"></i>
-								Básico
+								ANGULAR
 							</a>
 						</li>
 
 						<li className="conhecimento-item">
 							<a>
 								<i className="fab fa-linux"></i>
-								Básico
+								LINUX
 							</a>
 						</li>
 					</ul>
