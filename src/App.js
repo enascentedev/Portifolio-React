@@ -13,7 +13,6 @@ function App() {
     <Router>
       <div className="background"></div>
       <div className="App">
-        <h1>Portifolio Emanuel</h1>
         <Header />
         <Routes>
           <Route exact path="/" element={<About />} />

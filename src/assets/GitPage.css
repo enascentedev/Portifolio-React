@@ -1,0 +1,28 @@
+.container {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  background: rgba(105, 105, 105, 0.813);
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.carousel .slide img {
+  width: 1200px; /* ajuste para o tamanho desejado */
+  height: 550px; /* ajuste para o tamanho desejado */
+  object-fit: cover; 
+}
