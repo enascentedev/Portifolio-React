@@ -7,8 +7,11 @@ function GitPage() {
   return (
     <div className='container'>
       <Carousel showThumbs={false} autoPlay infiniteLoop>
-        <div>
-          <img src="/image/git-1.jpg" alt="Imagem 1" />
+        <div className='box-image'>
+					<div>
+						<img src="/image/git-1.jpg" alt="Imagem 1" />
+					</div>
+         
           <p className="legend">Formatação do perfil do github com números de commits</p>
         </div>
         <div>
