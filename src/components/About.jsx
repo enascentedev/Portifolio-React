@@ -73,7 +73,7 @@ function About() {
 
 						<li className="conhecimento-item">
 							<a>
-								<NavLink to="/git">
+								<NavLink to="/html">
 									<i className="fab fa-html5"></i>
 									HTML
 								</NavLink>

@@ -8,16 +8,16 @@ function GitPage() {
 		<div className='container'>
 			<Carousel showThumbs={false} autoPlay infiniteLoop>
 				<div className='box-image'>
-					<img src="/image/git-1.jpg" alt="Imagem 1" />
-					<p className="legend">Formatação do perfil do github com números de commits</p>
+					<img src="/image/html-1.jpg" alt="Imagem html 1" />
+					<p className="legend">tags de html e seus tipos de uso</p>
 				</div>
 				<div>
-					<img src="/image/git-2.jpg" alt="Imagem 2" />
-					<p className="legend">Gráficos e skill que trabalho</p>
+					<img src="/image/html-2.jpg" alt="Imagem html 2" />
+					<p className="legend">tags de html e seus tipos de uso</p>
 				</div>
 				<div>
-					<img src="/image/git-3.jpg" alt="Imagem 3" />
-					<p className="legend">Repositório com várias branchs</p>
+					<img src="/image/html-3.jpg" alt="Imagem html 3" />
+					<p className="legend">tags de html e seus tipos de uso</p>
 				</div>
 			</Carousel>
 		</div>

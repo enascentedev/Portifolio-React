@@ -5,7 +5,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
-import GitPage from './pages/GitPage'; // Certifique-se de que o caminho está correto
+import GitPage from './pages/GitPage';
+import HtmlPage from './pages/HtmlPage';
 import './assets/App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/git" element={<GitPage />} /> {/* Adicione a rota para GitPage */}
+          <Route path="/html" element={<HtmlPage />} /> {/* Adicione a rota para GitPage */}
         </Routes>
       </div>
     </Router>
